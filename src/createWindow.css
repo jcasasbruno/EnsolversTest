@@ -1,0 +1,39 @@
+/* CreateWindow.css */
+
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  width: 90%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid black;
+}
+
+.custom-modal-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.button-container button {
+  margin-left: 10px;
+}
+
+.text-panel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.text-panel label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
